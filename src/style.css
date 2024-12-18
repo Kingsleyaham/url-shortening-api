@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gray: hsl(0, 0%, 75%);
+  --cyan: rgb(42, 207, 207);
+  --dark-violet: hsl(257, 27%, 26%);
+  --grayish-violet: hsl(257, 7%, 63%);
+  --very-dark-blue: hsl(255, 11%, 22%);
+  --very-dark-violet: hsl(260, 8%, 14%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+p {
+  color: var(--grayish-violet);
+}
